@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+body {
+    background-color: rgb(229, 241, 252);
+}
+
+.card {
+    max-width: 80%;
+    margin: 9rem auto;
+    background-color: white;
+    padding: 1.5rem;
+    border-radius: 11px;
+    box-shadow: 7px 10px 15px rgba(151, 159, 165, 0.7);
+}
+
+img {
+    display: block;
+    width: 100%;
+    margin: auto;
+    border-radius: 11px;
+    margin-bottom: 2.4rem;
+}
+
+h6 {
+    font-size: 1.6rem;
+    margin-bottom: 1.5rem;
+}
+
+p {
+    font-size: 1.2rem;
+    color: rgba(119, 119, 119, 0.568);
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+}
+
+@media screen and (min-width: 500px){
+    .card {
+        max-width: 25rem;
+    }
+    
+}
